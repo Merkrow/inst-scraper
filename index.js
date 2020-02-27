@@ -1,3 +1,4 @@
-const { scrapeProfile } = require('./lib');
+const prompts = require('prompts');
+const scraper = require('./lib');
 
-scrapeProfile('leomessi').then((data) => console.log(data))
+scraper();
